@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "tmpl-live-status-pub-1761235",
+  "description": "Sidebar example that runs a small Transformers.js demo inside a side panel.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "author": {
+    "name": "Your Name",
+    "email": "your@email.com",
+    "url": "https://yourwebsite.com"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.7.1"
+  },
+  "devDependencies": {
+    "extension": "^3.8.6"
+  },
+  "scripts": {
+    "dev": "extension dev",
+    "start": "extension start",
+    "build": "extension build",
+    "build:firefox": "extension build --browser firefox",
+    "build:edge": "extension build --browser edge"
+  },
+  "packageManager": "pnpm@10.19.0"
+}
